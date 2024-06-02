@@ -112,26 +112,10 @@ services:
         logo: "assets/tools/wazuh.png"
         subtitle: "SIEM"
         url: "https://192.168.1.135"
-        target: "_blank" # optional html a tag target attribut
-      - name: "Grafana"
-        logo: "assets/tools/grafana.png"
-        subtitle: "Metrics Dashboard"
-        url: "http://192.168.1.35:3000"
-        target: "_blank" # optional html a tag target attribut
-      - name: "Prometheus"
-        logo: "assets/tools/prometheus.png"
-        subtitle: "Metrics"
-        url: "http://192.168.1.35:9090"
-        target: "_blank" # optional html a tag target attribut
       - name: "Ntop"
         logo: "assets/tools/ntop.png"
         subtitle: "Network Monitoring"
         url: "https://192.168.1.1:3000/"
-        target: "_blank" # optional html a tag target attribut
-      - name: "Kasm"
-        logo: "assets/tools/kasm.png"
-        subtitle: "Browser Isolation"
-        url: "https://192.168.1.132"
         target: "_blank" # optional html a tag target attribut
       - name: "Cameras"
         logo: "assets/tools/kasm.png"
