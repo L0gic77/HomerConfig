@@ -9,7 +9,7 @@ footer: '<p>Theme made with <span class="has-text-danger">❤️</span> by <a hr
 stylesheet:
   - "assets/custom.css"
 
-columns: "4" # You can change this to any number that is a factor of 12: (1, 2, 3, 4, 6, 12)
+columns: "4" # You can change this to making sub changes any number that is a factor of 12: (1, 2, 3, 4, 6, 12)
 theme: default
 colors:
   light:
