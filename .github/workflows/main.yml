@@ -12,7 +12,7 @@ jobs:
       - name: Download file using wget
         run: |
           URL="https://raw.githubusercontent.com/L0gic77/HomerConfig/main/config.yml?token=GHSAT0AAAAAACTDPLIFKLSCYUNCLMSCXMMKZS5CH7Q"
-          DESTINATION="/usr/share/nginx/homer/assets/"
+          DESTINATION="/usr/share/nginx/homer/assets/config.yml"
           wget -O "$DESTINATION" "$URL"
           if [ $? -eq 0 ]; then
             echo "File downloaded successfully to $DESTINATION"
